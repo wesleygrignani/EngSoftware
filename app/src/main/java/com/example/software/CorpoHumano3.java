@@ -11,26 +11,24 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class CorpoHumano extends AppCompatActivity {
+public class CorpoHumano3 extends AppCompatActivity {
 
     Button opcao1, opcao2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_corpohumano);
-        opcao1 = findViewById(R.id.btbraco);
-        opcao2 = findViewById(R.id.btcabeca);
+        setContentView(R.layout.activity_corpohumano3);
+        opcao1 = findViewById(R.id.btpernaa);
+        opcao2 = findViewById(R.id.btmao);
     }
 
+    public void perna(View v){
 
-    public void primeiro(View v ){
+    }
+
+    public void mao(View v){
         show_toast();
-    }
-
-    public void segundo(View v){
-        startActivity(new Intent(getBaseContext(),CorpoHumano2.class));
-        finish();
     }
 
     public void show_toast(){

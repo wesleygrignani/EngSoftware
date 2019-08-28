@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".CorpoHumano"></activity>
+        <activity android:name=".CorpoHumano2"></activity>
+        <activity android:name=".CorpoHumano3"></activity>
     </application>
 
 </manifest>

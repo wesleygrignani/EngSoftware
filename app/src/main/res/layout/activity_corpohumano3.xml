@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CorpoHumano">
+    tools:context=".CorpoHumano3">
 
 
     <ImageView
@@ -17,15 +17,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/imagem1" />
+        app:srcCompat="@drawable/imagem3" />
 
     <Button
-        android:id="@+id/btcabecaa"
+        android:id="@+id/btpernaa"
         android:layout_width="165dp"
         android:layout_height="78dp"
-        android:text="CABEÇA"
+        android:text="perna"
         android:textSize="25sp"
-        android:onClick="primeiro"
+        android:onClick="perna"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="0.138"
@@ -34,10 +34,10 @@
         app:layout_constraintVertical_bias="0.777" />
 
     <Button
-        android:id="@+id/btbraco"
+        android:id="@+id/btmao"
         android:layout_width="165dp"
         android:layout_height="78dp"
-        android:text="BRAÇO"
+        android:text="mão"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
@@ -45,5 +45,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.777"
-        android:onClick="segundo"/>
+        android:onClick="mao"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
