@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Higienequiz3"></activity>
+        <activity android:name=".Higienequiz2" />
+        <activity android:name=".Higienequiz" />
+        <activity android:name=".Higiene3" />
+        <activity android:name=".Higiene2" />
+        <activity android:name=".Higiene" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,9 +22,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CorpoHumano"></activity>
-        <activity android:name=".CorpoHumano2"></activity>
-        <activity android:name=".CorpoHumano3"></activity>
+        <activity android:name=".CorpoHumano" />
+        <activity android:name=".CorpoHumano2" />
+        <activity android:name=".CorpoHumano3" />
     </application>
 
 </manifest>

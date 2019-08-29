@@ -26,11 +26,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void segundoJogo(View v){
-        //startActivity(new Intent(getBaseContext(),CorpoHumano.class));
+        startActivity(new Intent(getBaseContext(),Higiene.class));
 
     }
-
-
 
     }
 
