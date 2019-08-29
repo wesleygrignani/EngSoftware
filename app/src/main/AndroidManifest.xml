@@ -25,6 +25,10 @@
         <activity android:name=".CorpoHumano" />
         <activity android:name=".CorpoHumano2" />
         <activity android:name=".CorpoHumano3" />
+        <activity android:name=".QuebraCabeca1" />
+        <activity android:name=".QuebraCabeca2" />
+        <activity android:name=".QuebraCabeca3" />
+        <activity android:name=".TelaFinalQuebraCabeca" />
     </application>
 
 </manifest>

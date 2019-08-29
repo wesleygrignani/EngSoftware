@@ -11,24 +11,24 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class CorpoHumano3 extends AppCompatActivity {
+public class QuebraCabeca2 extends AppCompatActivity {
 
     Button opcao1, opcao2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_corpohumano3);
-        opcao1 = findViewById(R.id.btpernaa);
-        opcao2 = findViewById(R.id.btmao);
+        setContentView(R.layout.activity_quebracabeca2);
+        opcao1 = findViewById(R.id.btsim);
+        opcao2 = findViewById(R.id.btnao);
     }
 
-    public void perna(View v){
-        startActivity(new Intent(getBaseContext(),QuebraCabeca1.class));
+    public void certo(View v){
+        startActivity(new Intent(getBaseContext(),QuebraCabeca3.class));
         finish();
     }
 
-    public void mao(View v){
+    public void errado(View v){
         show_toast();
     }
 
